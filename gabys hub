@@ -1,0 +1,410 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Gaby's Hub", "Ocean")
+
+-- FPS SHOWER
+local Main = Window:NewTab("Fps/Ping Shower")
+local MainSection = Main:NewSection("-------")
+
+MainSection:NewButton("Fps/Ping Counter", "ButtonInfo", function()
+
+    	 game.StarterGui:SetCore("SendNotification", {Title = "Gabys Hub ", Text = "Fps/Ping Shower Activated", Icon = "rbxassetid://505845268", Duration = 5, Button1 = "OK"})
+		 
+    loadstring(game:HttpGet("https://pastebin.com/raw/K4Jjj6z8"))()
+    end)
+
+-- MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("-------")
+
+MainSection:NewButton("Lock", "It Targets The Player You Want To !", function()
+
+    	 game.StarterGui:SetCore("SendNotification", {Title = "Gabys Hub ", Text = "Lock Activated (Q)", Icon = "rbxassetid://505845268", Duration = 5, Button1 = "OK"})
+		 
+loadstring(game:HttpGet('https://pastebin.com/raw/2criUMcz'))()
+end)
+
+MainSection:NewButton("Fly (x)", "It Makes U Fly", function()
+
+    	 game.StarterGui:SetCore("SendNotification", {Title = "Gabys Hub ", Text = "Fly Activated", Icon = "rbxassetid://505845268", Duration = 5, Button1 = "OK"})
+		 
+    loadstring(game:HttpGet('https://pastebin.com/raw/sDKjh2Ye'))()
+end)
+
+-- TELEPORTS
+local Main = Window:NewTab("Teleport")
+local MainSection = Main:NewSection("-------")
+
+MainSection:NewButton("Double Barrel", "Cool", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/PqL6PMJ7'))()
+end)
+
+MainSection:NewButton("Rev", "Cool", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/1ELB0wBK'))()
+end)
+
+MainSection:NewButton("Shootgun", "Cool", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/jAEnVgqV'))()
+end)
+
+MainSection:NewButton("Tactical Shootgun", "Cool", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/hQ4GSLdp'))()
+end)
+
+MainSection:NewButton("SMG", "Cool", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/hE7knZhm'))()
+end)
+
+MainSection:NewButton("RPG", "Cool", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/88H2bWS7'))()
+end)
+
+MainSection:NewButton("Arrmor", "Cool", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/3B2Qg53J'))()
+end)
+
+local MainSection = Main:NewSection("-------")
+
+MainSection:NewButton("Bank", "Yes", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-436.293091, 22.9756889, -284.663605)
+end)
+
+MainSection:NewButton("Food UpHill", "Yes", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(299.333008, 49.2826653, -614.396179)
+end)
+
+MainSection:NewButton("Casino", "Yes", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-887.471619, 21.75, -124.488388)
+end)
+
+MainSection:NewButton("Food DownHill", "Yes", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-336.987122, 23.6826477, -298.932709)
+end)
+
+MainSection:NewButton("PlayGround", "Yes", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-230.296829, 22.1498718, -747.098389)
+end)
+
+MainSection:NewButton("Admin Base", "Yes", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-873.309631, -32.6492119, -651.348877, -0.999940217, 3.07973314e-09, 0.0109336879, 2.78485124e-09, 1, -2.69852585e-08, -0.0109336879, -2.6953197e-08, -0.999940217)
+end)
+
+MainSection:NewButton("Gunstore 1", "Yes", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(482.312347, 48.0705032, -624.330505)
+end)
+
+MainSection:NewButton("Gunstore 2", "Yes", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-582.699829, 8.31478119, -736.593994)
+end)
+
+-- COMBAT
+local Main = Window:NewTab("Combat")
+local MainSection = Main:NewSection("-------")
+
+MainSection:NewButton("Free Fists", "You Can Punch From EVERYWHERE!!!", function()
+
+    	 game.StarterGui:SetCore("SendNotification", {Title = "Gabys Hub ", Text = "Free Fists Acitvated (E)", Icon = "rbxassetid://505845268", Duration = 5, Button1 = "OK"})
+		 
+    loadstring(game:HttpGet('https://pastebin.com/raw/az3VVd6d'))()
+    print("Clicked")
+end)
+
+MainSection:NewButton("Fake Macro", "Cool", function()
+
+    	 game.StarterGui:SetCore("SendNotification", {Title = "Gabys Hub ", Text = "Fake Macro Activated (C to macro)", Icon = "rbxassetid://505845268", Duration = 5, Button1 = "OK"})
+		 
+    loadstring(game:HttpGet('https://pastebin.com/raw/ewCT0VyB'))()
+    print("Clicked")
+end)
+
+-- ANTI ZONE
+local Main = Window:NewTab("Anti-Zone")
+local MainSection = Main:NewSection("-------")
+
+MainSection:NewButton("Anti Stomp", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/tailgater/Fatality/main/Synapse"))()
+    end)
+
+MainSection:NewButton("Anti Lock", "You Can't Get Locked By Other Players", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/AvianProjects/Dahood/main/AntilockerV2')))()
+    print("Clicked")
+end)
+
+MainSection:NewButton("Anti Afk", "It Doesnt Let Roblox Kick U", function()
+ 
+    game.StarterGui:SetCore("SendNotification", {Title = "Gaby's Hub", Text = "Anti Afk Loaded", Icon = "468378395", Duration = 5, Button1 = "OK"})
+
+           for i,v in pairs(getconnections(game:GetService("Players").LocalPlayer.Idled)) do
+v:Disable()
+end
+end)
+
+-- AVATAR
+local Main = Window:NewTab("Avatar")
+local MainSection = Main:NewSection("-------")
+
+MainSection:NewButton("Visual Korblox", "ButtonInfo", function()
+
+    	 game.StarterGui:SetCore("SendNotification", {Title = "Gabys Hub ", Text = "Korblox Loaded", Icon = "rbxassetid://505845268", Duration = 5, Button1 = "OK"})
+		 
+    local ply = game.Players.LocalPlayer
+     
+            local chr = ply.Character
+     
+            chr.RightLowerLeg.MeshId = "902942093"
+     
+            chr.RightLowerLeg.Transparency = "1"
+     
+            chr.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=902942096"
+     
+            chr.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
+     
+            chr.RightFoot.MeshId = "902942089"
+     
+            chr.RightFoot.Transparency = "1"
+    end)
+
+    MainSection:NewButton("Visual Headless", "ButtonInfo", function()
+
+	    	 game.StarterGui:SetCore("SendNotification", {Title = "Gabys Hub ", Text = "Headless Loaded", Icon = "rbxassetid://505845268", Duration = 5, Button1 = "OK"})
+		 
+        game.Players.LocalPlayer.Character.Head.Transparency = 1
+         
+        for i,v in pairs(game.Players.LocalPlayer.Character.Head:GetChildren()) do
+         
+        if (v:IsA("Decal")) then
+         
+        v:Destroy()
+         
+        end
+         
+        end
+        end)
+    
+-- EXTRAS
+local Main = Window:NewTab("Extras")
+local MainSection = Main:NewSection("-------")
+
+MainSection:NewToggle("Auto Farm", "cash farm", function()
+    game.StarterGui:SetCore("SendNotification", {Title = "Gabys Hub ", Text = "Auto Farm Loaded", Icon = "", Duration = 5, Button1 = "OK"})
+ 
+ 
+ 
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+local tool = game.Players.LocalPlayer.Backpack.Combat
+ 
+local function getMoneyAroundMe() 
+    wait(0.5)
+    for i, money in ipairs(game.Workspace.Ignored.Drop:GetChildren()) do
+        if money.Name == "MoneyDrop" and (money.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).magnitude <= 20 then
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = money.CFrame
+            fireclickdetector(money.ClickDetector)
+            wait(1)
+        end  
+    end
+end
+ 
+ 
+ 
+ 
+local function startAutoFarm() 
+    humanoid:EquipTool(tool)
+ 
+    for i, v in ipairs(game.Workspace.Cashiers:GetChildren()) do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Open.CFrame * CFrame.new(0, 0, 2)
+        wait(1.5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Open.CFrame * CFrame.new(0, 0, 2)
+ 
+        if v.Open.Size.Z > 1 then
+            continue
+        end
+ 
+ 
+ 
+        for i = 0, 15 do
+            wait(0.5)
+            tool:Activate()
+        end
+ 
+        getMoneyAroundMe()
+ 
+    end
+ 
+ 
+ 
+    wait(0.5)
+ 
+    humanoid:UnequipTools()
+    startAutoFarm()
+ 
+end
+ 
+startAutoFarm()
+end)
+
+MainSection:NewButton("Teleport To Player", "teleport to anyplayer", function()
+ 
+ game.StarterGui:SetCore("SendNotification", {Title = "Gabys Hub ", Text = "Teleport To Player Loaded", Icon = "rbxassetid://505845268", Duration = 5, Button1 = "OK"})
+ 
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+ 
+ 
+ 
+ScreenGui.Parent = game.CoreGui
+ 
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+Frame.BorderColor3 = Color3.fromRGB(255, 170, 255)
+Frame.BorderSizePixel = 15
+Frame.LayoutOrder = 1
+Frame.Position = UDim2.new(0.32708928, 0, 0.404040366, 0)
+Frame.Size = UDim2.new(0, 281, 0, 218)
+Frame.SizeConstraint = Enum.SizeConstraint.RelativeXX
+Frame.Style = Enum.FrameStyle.RobloxRound
+Frame.Active = true
+Frame.Draggable = true
+ 
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+TextBox.BackgroundTransparency = 0.400
+TextBox.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextBox.BorderSizePixel = 0
+TextBox.LayoutOrder = 1
+TextBox.Position = UDim2.new(0.120996438, 0, 0.201834857, 0)
+TextBox.Size = UDim2.new(0, 200, 0, 50)
+TextBox.Font = Enum.Font.Unknown
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
+TextBox.TextWrapped = true
+TextButton.MouseButton1Click:connect(function()
+end)
+ 
+ 
+ 
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+TextLabel.BackgroundTransparency = 4.000
+TextLabel.BorderColor3 = Color3.fromRGB(23, 23, 23)
+TextLabel.Position = UDim2.new(-0.0175503232, 0, -0.0373513475, 0)
+TextLabel.Size = UDim2.new(0, 256, 0, 27)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Gabys Hub Teleporter"
+TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+ 
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
+TextButton.BackgroundTransparency = 0.200
+TextButton.BorderColor3 = Color3.fromRGB(23, 23, 23)
+TextButton.Position = UDim2.new(0.11743772, 0, 0.610091746, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Teleport"
+TextButton.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextButton.TextSize = 14.000
+TextButton.MouseButton1Down:connect(function()
+	local lplayer = game:GetService('Players').LocalPlayer
+ 
+	local yeeting = false
+	function GetPlayer(String)
+		local Found = {}
+		local strl = String:lower()
+		if strl == "all" then
+			for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+				table.insert(Found,v)
+			end
+		elseif strl == "Random" then
+			for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+				if v.Name ~= lplayer.Name then
+					table.insert(Found,v)
+				end
+			end 
+		elseif strl == "me" then
+			for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+				if v.Name == lplayer.Name then
+					table.insert(Found,v)
+				end
+			end 
+		else
+			for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+				if v.Name:lower():sub(1, #String) == String:lower() then
+					table.insert(Found,v)
+				end
+			end 
+		end
+		return Found 
+	end
+	function ahh(thing)
+		local asd = {'yeet','gui','yeet gui'}
+		local f = string.upper(asd[math.random(1,#asd)])
+		return f
+	end
+ 
+	local target = unpack(GetPlayer(TextBox.Text)).Character
+ 
+	game:GetService'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = target.Head.CFrame;coin.Location = target.Head.Position game["Run Service"].Heartbeat:wait()
+end)
+ 
+ 
+end)
+
+MainSection:NewButton("Rainbow Body", "turns u rgb", function()
+ 
+    	 game.StarterGui:SetCore("SendNotification", {Title = "Gabys Hub ", Text = "Rainbow Body Loaded", Icon = "rbxassetid://505845268", Duration = 5, Button1 = "OK"})
+ 
+    	 	 	 for i, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+			if v:IsA("MeshPart") then
+				v.Material = "ForceField"
+				spawn(function()
+					while wait() do
+						for i, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+							if v:IsA("MeshPart") then
+								v.Color = Color3.fromHSV(tick()%5/5,1,1)
+								wait()
+							end
+						end 
+					end
+				end)
+			end
+		end
+end)
+
+
+MainSection:NewButton("Animation Pack", "Cool", function()
+
+    	 game.StarterGui:SetCore("SendNotification", {Title = "Gabys Hub ", Text = "Animation Pack Loaded", Icon = "rbxassetid://505845268", Duration = 5, Button1 = "OK"})
+
+    loadstring(game:HttpGet('https://pastebin.com/raw/5p60dvmu'))()
+    print("Clicked")
+end)
+
+MainSection:NewButton("Force Reset", "ButtonInfo", function()
+
+    	 game.StarterGui:SetCore("SendNotification", {Title = "Gabys Hub ", Text = "Force Reset Executed", Icon = "rbxassetid://505845268", Duration = 5, Button1 = "OK"})
+		
+    game.Players.LocalPlayer.Character.Head:Destroy()
+    end)
+
+MainSection:NewButton("Bike FLY", "It makes U Fly with Your OWN Bike ! Cool, Right?", function()
+
+    	 game.StarterGui:SetCore("SendNotification", {Title = "Gabys Hub ", Text = "Bike Fly Loaded", Icon = "rbxassetid://505845268", Duration = 5, Button1 = "OK"})
+		 
+    loadstring(game:HttpGet('https://pastebin.com/raw/UAHBzFar'))()
+    print("Clicked")
+end)
+
+MainSection:NewKeybind("Close/Open GUI", "Select A Keybind To Close/Open GUI", Enum.KeyCode.F, function()
+
+    	 game.StarterGui:SetCore("SendNotification", {Title = "Gabys Hub ", Text = "GUI Was CLOSED/OPENED", Icon = "rbxassetid://505845268", Duration = 5, Button1 = "OK"})
+		 
+	Library:ToggleUI()
+end)
